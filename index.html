@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, interactive-widget=resizes-content" />
+    <meta name="theme-color" content="#1D3557" />
+    <base href="/" />
+
+    <!-- hreflang -->
+    <link rel="alternate" hreflang="x-default" href="https://makeitmeme.com/" />
+    <link rel="alternate" hreflang="en" href="https://makeitmeme.com/en/" />
+    <link rel="alternate" hreflang="de" href="https://makeitmeme.com/de/" />
+    <link rel="alternate" hreflang="es" href="https://makeitmeme.com/es/" />
+    <link rel="alternate" hreflang="pl" href="https://makeitmeme.com/pl/" />
+    <link rel="alternate" hreflang="nl" href="https://makeitmeme.com/nl/" />
+    <link rel="alternate" hreflang="it" href="https://makeitmeme.com/it/" />
+    <link rel="alternate" hreflang="cs" href="https://makeitmeme.com/cs/" />
+    <link rel="alternate" hreflang="da" href="https://makeitmeme.com/da/" />
+    <link rel="alternate" hreflang="fr" href="https://makeitmeme.com/fr/" />
+    <link rel="alternate" hreflang="hu" href="https://makeitmeme.com/hu/" />
+    <link rel="alternate" hreflang="ru" href="https://makeitmeme.com/ru/" />
+    <link rel="alternate" hreflang="sk" href="https://makeitmeme.com/sk/" />
+    <link rel="alternate" hreflang="ar" href="https://makeitmeme.com/ar/" />
+    <link rel="alternate" hreflang="ro" href="https://makeitmeme.com/ro/" />
+    <link rel="alternate" hreflang="el" href="https://makeitmeme.com/el/" />
+    <link rel="alternate" hreflang="sr" href="https://makeitmeme.com/sr/" />
+    <link rel="alternate" hreflang="zh" href="https://makeitmeme.com/zh/" />
+    <link rel="alternate" hreflang="pt" href="https://makeitmeme.com/pt/" />
+    <link rel="alternate" hreflang="he" href="https://makeitmeme.com/he/" />
+    <link rel="alternate" hreflang="tr" href="https://makeitmeme.com/tr/" />
+    <link rel="alternate" hreflang="ja" href="https://makeitmeme.com/ja/" />
+    <link rel="alternate" hreflang="ko" href="https://makeitmeme.com/ko/" />
+    <link rel="alternate" hreflang="uk" href="https://makeitmeme.com/uk/" />
+    <link rel="alternate" hreflang="sv" href="https://makeitmeme.com/sv/" />
+    <link rel="alternate" hreflang="hi" href="https://makeitmeme.com/hi/" />
+    <link rel="alternate" hreflang="id" href="https://makeitmeme.com/id/" />
+
+    <!-- Primary Meta Tags -->
+    <title>Make it Meme - The online meme party game</title>
+    <meta name="title" content="Make it Meme - The online meme party game" data-react-helmet="true" />
+    <meta name="description" content="Make it Meme is the free multiplayer game about creating and rating memes. Play it now with your friends!" data-react-helmet="true" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://makeitmeme.com/" />
+    <meta property="og:site_name" content="Make it Meme" />
+    <meta property="og:title" content="Make it Meme - The online meme party game" data-react-helmet="true" />
+    <meta property="og:description" content="Make it Meme is the free multiplayer game about creating and rating memes. Play it now with your friends!" data-react-helmet="true" />
+    <meta property="og:image" content="/header.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://makeitmeme.com/" />
+    <meta property="twitter:title" content="Make it Meme - The online meme party game" data-react-helmet="true" />
+    <meta property="twitter:description" content="Make it Meme is the free multiplayer game about creating and rating memes. Play it now with your friends!" data-react-helmet="true" />
+    <meta property="twitter:image" content="/header.jpg" />
+
+    <!-- PWA -->
+    <link rel="apple-touch-icon" sizes="120x120" href="/icons/icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/icons/icon-152x152.png" />
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- InMobi Choice. Consent Manager Tag v3.0 (for TCF 2.2) -->
+    <script type="0fea38163aa6c338a916a9ca-text/javascript" async=true>
+      (function() {
+        var host = window.location.hostname;
+        var element = document.createElement('script');
+        var firstScript = document.getElementsByTagName('script')[0];
+        var url = 'https://cmp.inmobi.com'.concat('/choice/', '4Y2GJKUtJ5Qd-', '/', host, '/choice.js?tag_version=V3');
+        var uspTries = 0;
+        var uspTriesLimit = 3;
+        element.async = true;
+        element.type = 'text/javascript';
+        element.src = url;
+
+        firstScript.parentNode.insertBefore(element, firstScript);
+
+        function makeStub() {
+          var TCF_LOCATOR_NAME = '__tcfapiLocator';
+          var queue = [];
+          var win = window;
+          var cmpFrame;
+
+          function addFrame() {
+            var doc = win.document;
+            var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
+
+            if (!otherCMP) {
+              if (doc.body) {
+                var iframe = doc.createElement('iframe');
+
+                iframe.style.cssText = 'display:none';
+                iframe.name = TCF_LOCATOR_NAME;
+                doc.body.appendChild(iframe);
+              } else {
+                setTimeout(addFrame, 5);
+              }
+            }
+            return !otherCMP;
+          }
+
+          function tcfAPIHandler() {
+            var gdprApplies;
+            var args = arguments;
+
+            if (!args.length) {
+              return queue;
+            } else if (args[0] === 'setGdprApplies') {
+              if (
+                args.length > 3 &&
+                args[2] === 2 &&
+                typeof args[3] === 'boolean'
+              ) {
+                gdprApplies = args[3];
+                if (typeof args[2] === 'function') {
+                  args[2]('set', true);
+                }
+              }
+            } else if (args[0] === 'ping') {
+              var retr = {
+                gdprApplies: gdprApplies,
+                cmpLoaded: false,
+                cmpStatus: 'stub'
+              };
+
+              if (typeof args[2] === 'function') {
+                args[2](retr);
+              }
+            } else {
+              if(args[0] === 'init' && typeof args[3] === 'object') {
+                args[3] = Object.assign(args[3], { tag_version: 'V3' });
+              }
+              queue.push(args);
+            }
+          }
+
+          function postMessageEventHandler(event) {
+            var msgIsString = typeof event.data === 'string';
+            var json = {};
+
+            try {
+              if (msgIsString) {
+                json = JSON.parse(event.data);
+              } else {
+                json = event.data;
+              }
+            } catch (ignore) {}
+
+            var payload = json.__tcfapiCall;
+
+            if (payload) {
+              window.__tcfapi(
+                payload.command,
+                payload.version,
+                function(retValue, success) {
+                  var returnMsg = {
+                    __tcfapiReturn: {
+                      returnValue: retValue,
+                      success: success,
+                      callId: payload.callId
+                    }
+                  };
+                  if (msgIsString) {
+                    returnMsg = JSON.stringify(returnMsg);
+                  }
+                  if (event && event.source && event.source.postMessage) {
+                    event.source.postMessage(returnMsg, '*');
+                  }
+                },
+                payload.parameter
+              );
+            }
+          }
+
+          while (win) {
+            try {
+              if (win.frames[TCF_LOCATOR_NAME]) {
+                cmpFrame = win;
+                break;
+              }
+            } catch (ignore) {}
+
+            if (win === window.top) {
+              break;
+            }
+            win = win.parent;
+          }
+          if (!cmpFrame) {
+            addFrame();
+            win.__tcfapi = tcfAPIHandler;
+            win.addEventListener('message', postMessageEventHandler, false);
+          }
+        };
+
+        makeStub();
+
+        var uspStubFunction = function() {
+          var arg = arguments;
+          if (typeof window.__uspapi !== uspStubFunction) {
+            setTimeout(function() {
+              if (typeof window.__uspapi !== 'undefined') {
+                window.__uspapi.apply(window.__uspapi, arg);
+              }
+            }, 500);
+          }
+        };
+
+        var checkIfUspIsReady = function() {
+          uspTries++;
+          if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
+            console.warn('USP is not accessible');
+          } else {
+            clearInterval(uspInterval);
+          }
+        };
+
+        if (typeof window.__uspapi === 'undefined') {
+          window.__uspapi = uspStubFunction;
+          var uspInterval = setInterval(checkIfUspIsReady, 6000);
+        }
+      })();
+    </script>
+    <!-- End InMobi Choice. Consent Manager Tag v3.0 (for TCF 2.2) -->
+
+    <!-- Poki SDK -->
+    <script src="https://game-cdn.poki.com/scripts/v2/poki-sdk.js" type="0fea38163aa6c338a916a9ca-text/javascript"></script>
+    <script type="0fea38163aa6c338a916a9ca-module" crossorigin src="/assets/index-df973068.js"></script>
+    <link rel="stylesheet" href="/assets/index-27bc5d57.css">
+  </head>
+  <body style="background:#333899">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+      <style>@keyframes loadingFade {from{opacity:0;}}</style>
+      <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;height:90vh;font-family:'Roboto',sans-serif">
+        <h1 style="font-size:3.8rem;color:#E63946FF;margin-block-end:0;font-weight:300;text-align:center">
+          MAKE IT<br/>
+          <span style="font-size:5rem;margin:0;line-height:3.3rem;font-weight:600">
+            MEME
+          </span>
+        </h1>
+        <h2 style="color:white;font-weight:400;margin-block-start:2rem;animation:loadingFade 1s infinite alternate">
+          Game is loading...
+        </h2>
+      </div>
+    </div>
+</body>
+  
+</html>
